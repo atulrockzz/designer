@@ -10,7 +10,7 @@ pipeline {
 		steps {
 			sh '''
 			npm install
-			ploymer build --base-href=/designer/                      
+			polymer build                       
 			'''
 		}
 	}
